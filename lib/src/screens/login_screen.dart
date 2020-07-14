@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget passwordField() {
     return TextFormField(
-      //obscureText: true,
+      obscureText: true,
       decoration: InputDecoration(
           hintText: 'Must be at least 4 characters long',
           labelText: 'Enter Password'),
